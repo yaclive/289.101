@@ -18,22 +18,29 @@ div {
     height: 200px;
 }
 
-.nav {
-    background: red;
-    overflow: hidden;
-    padding: 50px 0 50px 50px;
-}
-
-.nav .item {
+.item {
     background: yellow;
-    height: 600px;
     width: calc(50% - 50px);
     float: left;
     margin-right: 50px
 }
 
-.content {
+.nav {
     background: lime;
-    height: 200px;
-    clear: both;
+    overflow: hidden;
+    padding: 50px 0 50px 50px;
+}
+
+.nav .item {
+    height: 100px;
+}
+
+.content {
+    background: red;
+    overflow: hidden;
+    padding: 50px 0 50px 50px;
+}
+
+.content .item {
+    height: 600px;
 }
