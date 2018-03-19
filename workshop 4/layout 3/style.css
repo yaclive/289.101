@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    outline: 1px solid lime;
+}
+
+.container {
+    width: 920px;
+    margin: 0 auto;
+    
+}
+
+.header {
+    background-color: blue;
+    height: 200px;
+}
+
+.nav {
+    background: red;
+    overflow: hidden;
+}
+
+.nav .item {
+    background: yellow;
+    height: 600px;
+    width: calc(50% - 100px);
+    float: left;
+    margin: 50px;
+}
+
+.content {
+    background: lime;
+    height: 200px;
+    clear: both;
+}

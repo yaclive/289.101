@@ -1,0 +1,30 @@
+div {
+    outline: 2px solid lime;
+}
+
+.container {
+    width: 920px;
+    margin: 0 auto;
+    
+}
+
+.header {
+    background-color: blue;
+    height: 200px;
+}
+
+.nav {
+    height: 600px;
+}
+
+.nav .item {
+    background: red;
+    height: 100%;
+    width: 33.33%;
+    float: left;
+}
+
+.content {
+    background: lime;
+    height: 200px;
+}
