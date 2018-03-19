@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    outline: 2px solid lime;
+}
+
+.container {
+    width: 920px;
+    margin: 0 auto;
+}
+
+.item {
+    background: yellow;
+    float: left;
+    margin-right: 50px;
+    margin: 50px 50px 0 0;
+    height: 150px;
+}
+
+.item.col11 {
+    width: calc(100% - 50px);
+}
+.item.col21 {
+    width: calc(50% - 50px);
+}
+.item.col31 {
+    width: calc(33.33% - 50px);
+}
+.item.col32 {
+    width: calc(66.66% - 50px);
+}
+.item.col41 {
+    width: calc(25% - 50px);
+}
+.item.col43 {
+    width: calc(75% - 50px);
+}
+
+.item.row2 {
+    height: 300px;
+}
+
+.module {
+    overflow: hidden;
+    padding: 0 0 50px 50px;
+    min-height: 50px
+}
+.module.red {
+    background: red;
+}
+.module.green {
+    background: lime;
+}
+.module.blue {
+    background: blue;
+}
