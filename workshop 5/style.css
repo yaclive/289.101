@@ -45,6 +45,10 @@ nav {
     color: #fff;
     text-decoration: none;
     margin: 0 16px;
+    transition: color .2s;
+}
+.links a:hover {
+    color: #f06c64;
 }
 
 .banner {
@@ -55,4 +59,10 @@ nav {
 .banner img {
     max-width: 780px;
     width: 90%;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        background: green;
+    }
 }
