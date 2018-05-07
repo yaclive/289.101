@@ -1,0 +1,23 @@
+body {
+    
+}
+
+.blue {
+    background: blue;
+    height: 40px;
+}
+
+.green {
+    background: green;
+    height: 150px;
+}
+
+.orange {
+    background: orange;
+    height: 100px;
+}
+
+.grey {
+    background: grey;
+    height: 80px;
+}
