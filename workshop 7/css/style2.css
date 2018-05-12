@@ -1,0 +1,31 @@
+.blue {
+	background: blue;
+	height: 80px;
+}
+
+.green {
+	background: green;
+	min-height: 80px;
+}
+
+.orange {
+	background: orange;
+}
+.orange .row {
+	padding: 20px;
+}
+
+.red {
+	background: red;
+	min-height: 200px;
+}
+
+.grey {
+	background: grey;
+	height: 200px;
+}
+
+.purple {
+	background: purple;
+	height: 200px;
+}
